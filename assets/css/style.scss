@@ -1,0 +1,16 @@
+@import "blocks/null";
+@import "blocks/vars";
+/*технический класс контейнер*/
+._container {
+  max-width: 1046px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;//padding не раздвигает контейнер
+}
+
+.wrapper  {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+@import "blocks/header";
