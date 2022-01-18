@@ -11,6 +11,10 @@
 .wrapper  {
   min-height: 100%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 @import "blocks/header";
+@import "blocks/main";
+@import "blocks/footer";
