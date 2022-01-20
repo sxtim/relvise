@@ -121,3 +121,75 @@
   }
 }
 
+/*----------------services---------------------*/
+
+.page_services { //поднимаем весть блок
+  position: relative;
+  z-index: 2;
+  margin: -111px 0 0 0;
+}
+
+.services {
+}
+
+.services__container {
+}
+
+.container {
+}
+
+.services__body {
+  border: #FF7B47 1px solid;
+  display: flex;
+  margin: 0 -15px;//раздвигаем флекс контейнер на величину padding,
+                  //который задали колонке
+}
+
+.services__column {
+  border: blue 1px solid;
+  padding: 0 15px;//отступ между флекс колонкой и контентом
+  flex: 0 1 33.333%;//занимает 1/3 контейнера
+}
+
+.services__item {
+  height: 100%;
+  box-shadow: 4px 0 4px rgba(0, 0, 0, 0.25);
+  background-color: $white;
+  padding: 35px;
+}
+
+.item-service_green {
+  background-color: $green-dark;
+
+  .item-service__title {
+    color: $white;
+  }
+
+  .item-service__text {
+    color: $white;
+  }
+}
+
+.item-service {
+}
+
+.item-service > *:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+
+.item-service__icon {
+}
+
+.item-service__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 133%;
+}
+
+.item-service__text {
+  color: $gray;
+  font-size: 14px;
+  line-height: 142%;
+  font-weight: 500;
+
+}
