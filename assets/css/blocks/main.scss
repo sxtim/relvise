@@ -123,7 +123,7 @@
 
 /*----------------services---------------------*/
 
-.page_services { //поднимаем весть блок
+.page_services { //поднимаем весь блок
   position: relative;
   z-index: 2;
   margin: -111px 0 0 0;
@@ -139,14 +139,12 @@
 }
 
 .services__body {
-  border: #FF7B47 1px solid;
   display: flex;
   margin: 0 -15px;//раздвигаем флекс контейнер на величину padding,
                   //который задали колонке
 }
 
 .services__column {
-  border: blue 1px solid;
   padding: 0 15px;//отступ между флекс колонкой и контентом
   flex: 0 1 33.333%;//занимает 1/3 контейнера
 }

@@ -250,13 +250,11 @@ body {
 }
 
 .services__body {
-  border: #FF7B47 1px solid;
   display: flex;
   margin: 0 -15px;
 }
 
 .services__column {
-  border: blue 1px solid;
   padding: 0 15px;
   flex: 0 1 33.333%;
 }
